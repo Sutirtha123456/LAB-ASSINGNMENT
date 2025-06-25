@@ -1,0 +1,23 @@
+\documentclass[12pt]{article}
+\usepackage{lipsum}          % For dummy text
+\usepackage{fancyhdr}        % For header and footer
+\usepackage{geometry}        % To set page margins
+
+\geometry{margin=1in}
+
+% Set up header and footer
+\pagestyle{fancy}
+\fancyhf{}  % clear all header and footer fields
+\fancyhead[C]{\textbf{My Document Title}}    % Centered header
+\fancyfoot[L]{MAKAUT}            % Left footer
+\fancyfoot[R]{\thepage}                     % Right footer - page number
+
+\begin{document}
+
+\section*{Section 1}
+\lipsum[1]
+
+\section*{Section 2}
+\lipsum[2]
+
+\end{document}
